@@ -1,0 +1,92 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+//Basic Colors
+$black: #000;
+$red: #ff2d1e;
+$yellow: #f4c22b;
+$indigo: $indigo;
+
+$white: #FFF;
+
+// $success: $green;
+$info: #a7a7a7;
+$warning: $yellow;
+$danger: $red;
+
+//-------------------------------------------------------------------------------------------------------
+//OnSoftColors
+
+$primary-main-color: #00c695;
+$primary-color: #00c695;
+$dark-color: #208f73;
+$secondary-color: #c5161d;
+$color-font-main-navbar: #ffffff;
+$list:#f58466;
+$list-active:#00cebe;
+
+$breadcrumb: #e9ecef;
+$breadcrumb-link:$primary-color;
+$breadcrumb-link-actual: #f15b40;
+
+$loading-primary-color : $indigo;
+$loading-second-color : #ff3279;
+$loading-third-color : #ff5836;
+//----------------------------------------------------------------------------------------------------------
+
+
+//Regions
+$sidebar: $primary-main-color;
+$sidebar-list:$white;
+$sidebar-list-active:$list-active;
+
+$navbar: $primary-color;
+$navbar-color-font: $color-font-main-navbar;
+
+$breadcrumb: $primary-main-color;
+$breadcrumb-background:#e9ecef;
+$breadcrumb-link: $primary-color;
+
+$content: $white;
+
+//Colors
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800
+) !default;
+
+
+// Theme Colors
+$theme-colors: (
+  primary: $cyan,
+  secondary: $cyan / 0.85,
+  // success: $green,
+  // info: $primary-color-2,
+  // warning: $yellow,
+  // danger: $red,
+  // light: $light-color,
+  // dark: #343a40,
+  // body: $body-color
+);
+
+
+
+$border-color: map-get($theme-colors, "primary");
+$title-accordion: map-get($theme-colors, "primary");
+$a: map-get($theme-colors, "primary");
+$background-color-icon: map-get($theme-colors, "primary");
+$form-control-focus: map-get($theme-colors, "primary");
+$navbar-background-color: map-get($theme-colors, "primary");
+$breadcrumb-background-color: map-get($theme-colors, "primary");
+$hover: map-get($theme-colors, "secondary");
+$custom-control-input-checked: map-get($theme-colors, "primary");

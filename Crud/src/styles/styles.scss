@@ -1,0 +1,187 @@
+/* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import "components/button";
+@import "components/ng-select.scss";
+
+.img-adjustment {
+  height: 24px !important;
+  width: 24px !important;
+  border-radius: 12px !important;
+}
+
+.card-adjustment{
+  max-height: 30px !important;
+  max-width: 45px !important;
+}
+
+.td-img-adjustment {
+  max-height: 25px !important;
+  max-width: 25px !important;
+  border-radius: 12px !important;
+}
+
+::-webkit-scrollbar {
+  background: $border-color;
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $hover;
+  box-shadow: 0px 0px 0px;
+  border-color: $hover;
+  border-radius: 70px;
+  -webkit-border-radius: 10px;
+}
+
+;
+
+::-webkit-scrollbar-corner {
+  background: $hover;
+  box-shadow: 0px 0px 0px;
+};
+
+::-webkit-scrollbar-track {
+  background: $border-color;
+  border-radius: 25%;
+  -webkit-border-radius: 10px;
+};
+
+html,
+body {
+  height: 100vh;
+}
+
+.inside-option-background {
+  color: $primary-color;
+
+  .inside-option-background:hover {
+    color: $hover;
+  }
+}
+
+.tr-click {
+  cursor: pointer;
+
+  &:hover td {
+    color: $hover;
+  }
+}
+
+.color-icon {
+  background: $background-color-icon;
+}
+
+.background {
+  background: #dff1da;
+}
+
+.background-side-nav {
+  background: #5eb246;
+}
+
+
+.colors {
+  color: $primary-color;
+}
+
+.colors:hover {
+  color: $hover;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.input {}
+
+.background-select {
+  background-color: $primary-color;
+  background: $primary-color;
+}
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.breadcrumb-link {
+  color: $breadcrumb-link;
+}
+
+.breadcrumb-link:hover {
+  color: $hover;
+  opacity: 0.7;
+}
+
+.breadcrumb-background {
+  background-color: $breadcrumb-background;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: $custom-control-input-checked;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+  background-color: $custom-control-input-checked;
+}
+
+.custom-control-input:checked~.custom-control-label::before{
+  color: #fff;
+  background-color: $custom-control-input-checked;
+}
+
+.form-control {
+  width: 100% !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+
+.control-label {
+  width: 100% !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.1rem $form-control-focus;
+}
+
+.input-group{
+  flex-wrap: nowrap !important;
+  max-width: 100% !important;
+}
+
+.btn-on {
+  width: 130px;
+
+  &-full {
+    width: 120px;
+  }
+}
+
+a {
+  color: $a;
+}
+
+a:hover {
+  color: $hover !important;
+  text-decoration: none !important;
+}
+
+.btn:hover {
+  color: $white !important;
+}

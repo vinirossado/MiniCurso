@@ -1,0 +1,15 @@
+<div class="form-group" [class.has-error]="hasError()" style="position: relative;">
+    <label class="control-label">
+      <div [class]="labelAlign">
+        <small class="ml-1 header-table">{{label}}</small>
+        <strong *ngIf="isRequired" class="text-danger" title="Campo obrigatório."> *</strong>
+      </div>
+      <ng-content></ng-content>
+    </label>
+    <br />
+    <small class="text-danger text-nowrap" *ngIf="showTip && hasError() && errorMessage" style="position: absolute; margin-top: -5px; left:0;">
+      <i class="fal fa-exclamation-triangle"></i> &nbsp;{{errorMessage}}
+    </small>
+  </div>
+  
+  
