@@ -11,6 +11,11 @@ namespace Veiculos.Infra.Data.Context
         {
         }
 
+        public DataContext()
+        {
+            ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
