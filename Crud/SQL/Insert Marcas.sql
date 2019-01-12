@@ -1,0 +1,18 @@
+
+Use Veiculos;
+INSERT INTO Marcas
+VALUES ('CHEVROLET')
+,('VOLKSWAGEN'),
+('FIAT'),
+('MERCEDES-BENZ'),
+('CITROEN'),
+('HONDA'),
+('SUBARU'),
+('FERRARI'),
+('BUGATTI'),
+('LAMBORGHINI'),
+('FORD'),
+('HYUNDAI'),
+('JAC'),
+('KIA');
+
