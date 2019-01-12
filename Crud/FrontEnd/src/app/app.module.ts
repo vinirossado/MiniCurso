@@ -16,6 +16,9 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { PublicComponent } from './pages/public/public/public.component';
 import { MainComponent } from './pages/public/main/main.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { VeiculosComponent } from './pages/public/veiculos/veiculos.component';
+import { VeiculosListaComponent } from './pages/public/veiculos/veiculos-lista/veiculos-lista.component';
+import { VeiculoService } from './services/veiculo.service';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     InputComponent,
     PublicComponent,
     MainComponent,
+    VeiculosComponent,
+    VeiculosListaComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,6 +44,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     ReactiveFormsModule.withConfig({ warnOnNgModelWithFormControl: 'never' }),
   ],
   providers: [
+    VeiculoService,
     NotificationService,
     { provide: LOCALE_ID, useValue: 'pt-BR' },
     { provide: LocationStrategy, useClass: HashLocationStrategy },

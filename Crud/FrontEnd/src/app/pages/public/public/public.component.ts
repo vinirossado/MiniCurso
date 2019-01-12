@@ -15,7 +15,6 @@ export class PublicComponent implements OnInit {
   }
 
   Teste(){
-      this.notificationService.notify(" O Cadastro do veiculo foi efetuado com sucesso", NotificationColorEnum.warning);
+      this.notificationService.notify("O Cadastro do veiculo foi efetuado com sucesso", NotificationColorEnum.normal);
   }
-
 }

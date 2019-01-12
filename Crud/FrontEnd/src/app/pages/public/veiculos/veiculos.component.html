@@ -1,0 +1,107 @@
+<nav aria-label="breadcrumb ">
+  <ol class="breadcrumb b-radius breadcrumb-background mt-3">
+    <li class="breadcrumb-item active mt-1" aria-current="page">
+      <a [routerLink]="'/veiculos'" style="cursor:pointer">
+        <i class="fa fa-users"></i>&nbsp;Veiculos
+      </a>
+    </li>
+    <li class="breadcrumb-item active breadcrumb-link-actual mt-1" aria-current="page">&nbsp;Adicionar</li>
+    <li class="ml-auto">
+      <button type="button" class="btn btn-sm btn-outline-primary btn-on" [routerLink]="'/veiculos'">
+        <i class="fa fa-list"></i>
+        <span class="d-none d-lg-inline-flex">&nbsp;Listar</span>
+      </button>
+    </li>
+  </ol>
+</nav>
+
+<form [formGroup]="veiculoForm" class="mb-3">
+ <input type="hidden" formControlName="id"/>
+  <div class="row mt-4">
+    <div class="col-lg-9 order-2 order-lg-1">
+      <div class="row mt-4">
+        <div class="col-4">
+          <app-input label="Nome" errorMessage="Campo obrigatório.">
+            <input type="text" placeholder="Nome" class="form-control " formControlName="nome" id="nome">
+          </app-input>
+        </div>
+
+        <div class="col-4">
+          <app-input errorMessage="Campo Obrigatório" label="Informe o modelo" isRequired>
+            <input type="text" placeholder="Modelo" class="form-control " formControlName="modelo">
+          </app-input>
+        </div>
+
+        <div class="col-4">
+         <app-input errorMessage="Campo Obrigatório" label="Selecione a Marca">
+              <div class="input-group">
+            <ng-select [clearable]="false" [virtualScroll]="true" [selectOnTab]="true" formControlName="marca">
+              <ng-option value="" disabled>-- Selecione --</ng-option>
+              <ng-option id="marca" *ngFor="let marca of marcas">{{marca}}
+              </ng-option>
+            </ng-select>
+          </div>
+         </app-input>
+        </div>
+
+       
+        <div class="col-4">
+            <app-input errorMessage="Campo Obrigatório" label="Ano de Fabricação" isRequired>
+              <input type="number" placeholder="Ano de Fabricação" class="form-control " formControlName="anoFabricacao">
+            </app-input>
+          </div>
+
+         
+        <div class="col-4">
+            <app-input errorMessage="Campo Obrigatório" label="Ano do Modelo" isRequired>
+              <input type="number" placeholder="Ano do Modelo" class="form-control " formControlName="anoModelo">
+            </app-input>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <app-input label="Chassi">
+            <input type="text" placeholder="Chassi" class="form-control " formControlName="chassi">
+          </app-input>
+        </div>
+        <div class="col-3">
+          <app-input label="Cor do Veiculo">
+            <input type="text" placeholder="Cor" class="form-control " formControlName="cor">
+          </app-input>
+        </div>
+
+       <div class="col-6">
+         <app-input errorMessage="Campo Obrigatório" label="Selecione o Combustivel">
+              <div class="input-group">
+            <ng-select [clearable]="false" [virtualScroll]="true" [selectOnTab]="true" formControlName="combustivel">
+              <ng-option value="" disabled>-- Selecione --</ng-option>
+              <ng-option id="combustivel" *ngFor="let combustivel of combustiveis">{{combustivel}}
+              </ng-option>
+            </ng-select>
+          </div>
+         </app-input>
+        </div>
+
+        <div class="col-3">
+          <app-input label="Quantidade de Portas">
+            <input type="number" min="2" placeholder="Nº" class="form-control " formControlName="portas">
+          </app-input>
+        </div>
+        <div class="col-3">
+          <app-input label="Valor do Veiculo">
+            <input type="text" currencyMask placeholder="Valor do Veiculo" class="form-control" formControlName="valor">
+          </app-input>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <button type="button" class="btn btn-primary btn-sm btn-on" [disabled]="veiculoForm.invalid" (click)="salvar(veiculoForm.value)"
+        text-center> <i class="fa fa-save"></i>&nbsp;&nbsp;Salvar</button>
+      <button class="btn text-center ml-3 btn-outline-danger btn-sm btn-on" *ngIf="id > 0" (click)="deletar(veiculoForm.value)">
+        <i class="fa fa-trash-alt"></i>&nbsp;&nbsp;Remover</button>
+    </div>
+  </div>
+</form>

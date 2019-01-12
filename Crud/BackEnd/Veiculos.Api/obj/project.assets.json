@@ -12231,11 +12231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Api\\Veiculos.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Api\\Veiculos.Api.csproj",
       "projectName": "Veiculos.Api",
-      "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Api\\Veiculos.Api.csproj",
+      "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Api\\Veiculos.Api.csproj",
       "packagesPath": "C:\\Users\\Rossado\\.nuget\\packages\\",
-      "outputPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Api\\obj\\",
+      "outputPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12255,14 +12255,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj": {
-              "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj"
+            "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj": {
+              "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj"
             },
-            "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj": {
-              "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj"
+            "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj": {
+              "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj"
             },
-            "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj": {
-              "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj"
+            "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj": {
+              "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj"
             }
           }
         }

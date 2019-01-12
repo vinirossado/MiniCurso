@@ -12,8 +12,4 @@
     <PackageReference Include="OnStock.Integrator" Version="1.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\Base\" />
-  </ItemGroup>
-
 </Project>

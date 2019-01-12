@@ -1,0 +1,34 @@
+<nav aria-label="breadcrumb ">
+  <ol class="breadcrumb b-radius breadcrumb-background mt-3">
+    <li class="breadcrumb-item active breadcrumb-link-actual mt-1" aria-current="page"><i class="fa fa-car"></i>&nbsp;Veiculos</li>
+    <li class="ml-auto">
+      <button type="button" class="btn btn-sm btn-outline-primary btn-on" (click)="novo()">
+        <i class="fa fa-plus"></i>
+        <span class="d-none d-lg-inline-flex">&nbsp;Adicionar</span>
+      </button>
+    </li>
+  </ol>
+</nav>
+
+<div class="row">
+  <div class="col-12 form-group">
+    <div class="form">
+      <table class="table table-sm-6 align-center table-hover table-striped ">
+        <thead>
+          <tr class="header-table title-table">
+            <th>Nome</th>
+            <th>Modelo</th>
+            <th>Ano Modelo</th>
+            <th>Portas</th>
+            <th>Combustivel</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr-click list-table" (click)="selecionar(veiculo.id)">
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

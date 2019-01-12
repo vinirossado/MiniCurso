@@ -7706,11 +7706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj",
       "projectName": "Veiculos.Infra.Data",
-      "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj",
+      "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj",
       "packagesPath": "C:\\Users\\Rossado\\.nuget\\packages\\",
-      "outputPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\obj\\",
+      "outputPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7730,8 +7730,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj": {
-              "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj"
+            "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj": {
+              "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj"
             }
           }
         }

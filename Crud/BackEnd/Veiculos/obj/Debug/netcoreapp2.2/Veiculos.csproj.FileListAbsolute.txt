@@ -7,3 +7,12 @@ C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.As
 C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.AssemblyInfo.cs
 C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.dll
 C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.pdb
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\bin\Debug\netcoreapp2.2\Veiculos.deps.json
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\bin\Debug\netcoreapp2.2\Veiculos.dll
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\bin\Debug\netcoreapp2.2\Veiculos.pdb
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.csprojAssemblyReference.cache
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.csproj.CoreCompileInputs.cache
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.AssemblyInfoInputs.cache
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.AssemblyInfo.cs
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.dll
+C:\Users\Rossado\Documents\LiveCurso\MiniCurso\Crud\BackEnd\Veiculos\obj\Debug\netcoreapp2.2\Veiculos.pdb

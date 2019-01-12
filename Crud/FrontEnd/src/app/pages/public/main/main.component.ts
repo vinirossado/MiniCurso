@@ -9,11 +9,12 @@ import { FormGroup } from '@angular/forms';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
+  
   title = 'myhome';
+
   menus: Menu[];
   currentPage: string;
   id: any;
-  usuarioForm: FormGroup;
 
   constructor(private router: Router,
               private route: ActivatedRoute
@@ -22,10 +23,12 @@ export class MainComponent implements OnInit {
   ngOnInit() {
     // Array que serão recebido os itens do menu lateral
     this.menus = [];
+    
+
     // Inclusão do Item de menu Lateral(rota, Titulo que será exibido, Icone)
     this.menus.push(new Menu('/veiculos', 'Veiculos', 'fa fa-car'));
-    this.menus.push(new Menu('/', 'Menu 2', 'fa fa-lock'));
-    this.menus.push(new Menu('/', 'Menu 3', 'fa fa-lock'));
+    this.menus.push(new Menu('/', 'Menu 2', 'fa fa-unlock'));
+    this.menus.push(new Menu('/', 'Menu 3', 'fa fa-cog'));
     this.menus.push(new Menu('/', 'Menu 4', 'fa fa-lock'));
     this.menus.push(new Menu('/', 'Menu 5', 'fa fa-lock'));
     this.menus.push(new Menu('/', 'Menu 6', 'fa fa-lock'));

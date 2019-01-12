@@ -7743,11 +7743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj",
       "projectName": "Veiculos.Infra.IoC",
-      "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj",
+      "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\Veiculos.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\Rossado\\.nuget\\packages\\",
-      "outputPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\obj\\",
+      "outputPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7767,11 +7767,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj": {
-              "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj"
+            "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj": {
+              "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.App\\Veiculos.App.csproj"
             },
-            "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj": {
-              "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj"
+            "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos.Infra.Data\\Veiculos.Infra.Data.csproj"
             }
           }
         }

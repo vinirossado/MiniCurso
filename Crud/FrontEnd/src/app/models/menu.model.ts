@@ -8,5 +8,7 @@ export class Menu {
         this.title = title;
         this.icon = icon;
     }
+
+    
   }
   

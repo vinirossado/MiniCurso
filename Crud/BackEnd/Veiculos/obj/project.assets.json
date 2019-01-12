@@ -6978,11 +6978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj",
+      "projectUniqueName": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj",
       "projectName": "Veiculos",
-      "projectPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj",
+      "projectPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\Veiculos.csproj",
       "packagesPath": "C:\\Users\\Rossado\\.nuget\\packages\\",
-      "outputPath": "C:\\MiniCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\obj\\",
+      "outputPath": "C:\\Users\\Rossado\\Documents\\LiveCurso\\MiniCurso\\Crud\\BackEnd\\Veiculos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
