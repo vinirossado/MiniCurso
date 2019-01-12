@@ -15,7 +15,7 @@ export class PublicComponent implements OnInit {
   }
 
   Teste(){
-      this.notificationService.notify("Testando SnackBar", NotificationColorEnum.normal);
+      this.notificationService.notify(" O Cadastro do veiculo não foi efetuado com sucesso", NotificationColorEnum.danger);
   }
 
 }

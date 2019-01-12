@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>6686e578-bb89-4e37-a582-92c7d2ad54f5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="OnStock.Integrator" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Veiculos.App\Veiculos.App.csproj" />
+    <ProjectReference Include="..\Veiculos.Infra.IoC\Veiculos.Infra.IoC.csproj" />
+    <ProjectReference Include="..\Veiculos\Veiculos.csproj" />
+  </ItemGroup>
+
+</Project>
