@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Veiculos\Veiculos.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
 </Project>

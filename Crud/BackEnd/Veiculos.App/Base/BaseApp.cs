@@ -1,11 +1,11 @@
-﻿using MyHome.app.Interface;
-using MyHome.Interfaces.Domain;
-using MyHome.Interfaces.Services;
+﻿using Veiculos.app.Interface;
+using Veiculos.Interfaces.Domain;
+using Veiculos.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyHome.app.Base
+namespace Veiculos.app.Base
 {
     public class BaseApp<T> : IBaseApp<T> where T : class, IBaseDomain
     {

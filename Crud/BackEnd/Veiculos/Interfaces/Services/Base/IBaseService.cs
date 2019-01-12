@@ -1,9 +1,9 @@
-﻿using MyHome.Interfaces.Domain;
+﻿using Veiculos.Interfaces.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyHome.Interfaces.Services
+namespace Veiculos.Interfaces.Services
 {
     public interface IBaseService<T> where T : IBaseDomain
     {

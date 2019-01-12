@@ -1,8 +1,7 @@
-﻿namespace MyHome.Interfaces.Domain
+﻿namespace Veiculos.Interfaces.Domain
 {
     public interface IBaseDomain
     {
         long Id { get; set; }
-        long ClienteAppId { get; set; }
     }
 }

@@ -1,9 +1,9 @@
-﻿using MyHome.Interfaces.Domain;
+﻿using Veiculos.Interfaces.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyHome.Interfaces.Repos.Base
+namespace Veiculos.Interfaces.Repos.Base
 {
     public interface IBaseRepo<T> where T : IBaseDomain
     {

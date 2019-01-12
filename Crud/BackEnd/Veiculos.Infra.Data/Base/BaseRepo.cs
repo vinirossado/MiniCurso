@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyHome.Infra.Data.Context;
-using MyHome.Interfaces.Domain;
-using MyHome.Interfaces.Repos.Base;
+using Veiculos.Infra.Data.Context;
+using Veiculos.Interfaces.Domain;
+using Veiculos.Interfaces.Repos.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MyHome.Infra.Data.Base
+namespace Veiculos.Infra.Data.Base
 {
     public class BaseRepo<T> : IBaseRepo<T> where T : class, IBaseDomain
     {

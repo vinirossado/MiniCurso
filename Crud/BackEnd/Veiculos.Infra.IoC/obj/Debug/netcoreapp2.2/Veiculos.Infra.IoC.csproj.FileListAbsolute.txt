@@ -1,0 +1,16 @@
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.Infra.IoC.deps.json
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.Infra.IoC.dll
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.Infra.IoC.pdb
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.App.dll
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.dll
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.Infra.Data.dll
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.App.pdb
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.Infra.Data.pdb
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\bin\Debug\netcoreapp2.2\Veiculos.pdb
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\obj\Debug\netcoreapp2.2\Veiculos.Infra.IoC.csprojAssemblyReference.cache
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\obj\Debug\netcoreapp2.2\Veiculos.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\obj\Debug\netcoreapp2.2\Veiculos.Infra.IoC.AssemblyInfoInputs.cache
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\obj\Debug\netcoreapp2.2\Veiculos.Infra.IoC.AssemblyInfo.cs
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\obj\Debug\netcoreapp2.2\Veiculos.Infra.IoC.csproj.CopyComplete
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\obj\Debug\netcoreapp2.2\Veiculos.Infra.IoC.dll
+C:\MiniCurso\MiniCurso\Crud\BackEnd\Veiculos.Infra.IoC\obj\Debug\netcoreapp2.2\Veiculos.Infra.IoC.pdb
