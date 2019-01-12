@@ -18,13 +18,13 @@ namespace Veiculos.app.Base
         #endregion
 
         #region Methods
-        public virtual T Find(long clienteAppId, long id) => _service.Find(clienteAppId, id);
+        public virtual T Find(long id) => _service.Find(id);
 
-        public virtual IList<T> List(long clienteAppId) => _service.List(clienteAppId);
+        public virtual IList<T> List() => _service.List();
 
-        public virtual void Remove(long clienteAppId, long id) => _service.Remove(clienteAppId, id);
+        public virtual void Remove(long id) => _service.Remove(id);
 
-        public virtual long Save(long clienteAppId, T obj) => _service.Save(clienteAppId, obj);
+        public virtual long Save(T obj) => _service.Save(obj);
         #endregion
     }
 }

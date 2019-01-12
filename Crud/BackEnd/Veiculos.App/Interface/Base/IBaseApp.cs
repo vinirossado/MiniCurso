@@ -7,9 +7,9 @@ namespace Veiculos.app.Interface
 {
     public interface IBaseApp<T> where T : IBaseDomain
     {
-        T Find(long clienteAppId, long id);
-        IList<T> List(long clienteAppId);
-        long Save(long clienteAppId, T obj);
-        void Remove(long clienteAppId, long id);
+        T Find(long id);
+        IList<T> List();
+        long Save(T obj);
+        void Remove(long id);
     }
 }

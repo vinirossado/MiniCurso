@@ -7,10 +7,10 @@ namespace Veiculos.Interfaces.Repos.Base
 {
     public interface IBaseRepo<T> where T : IBaseDomain
     {
-        T Find(long clienteAppId, long id);
-        IList<T> List(long clienteAppId);
-        void Add(long clienteAppId, T obj);
-        void Update(long clienteAppId, T obj);
+        T Find(long id);
+        IList<T> List();
+        void Add(T obj);
+        void Update(T obj);
         void Remove(T obj);
     }
 }

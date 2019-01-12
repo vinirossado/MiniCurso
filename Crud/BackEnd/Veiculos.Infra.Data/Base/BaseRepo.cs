@@ -15,38 +15,28 @@ namespace Veiculos.Infra.Data.Base
 
         public BaseRepo(DbContextOptions<DataContext> options) => _options = options;
 
-        public virtual void Add(long clienteAppId, T obj)
+        public virtual void Add(T obj)
         {
             using (var context = new DataContext(_options))
             {
-                obj.ClienteAppId = clienteAppId;
-
                 context.Set<T>().Add(obj);
                 context.SaveChanges();
             }
         }
 
-        public virtual IList<T> List(long clienteAppId)
+        public virtual IList<T> List()
         {
             using (var context = new DataContext(_options))
             {
-                return context.Set<T>().Where(x => x.ClienteAppId == clienteAppId).ToList();
+             return context.Set<T>().ToList();
             }
         }
 
-        public virtual IList<T> GetAll(string query = null)
+        public virtual T Find(long id)
         {
             using (var context = new DataContext(_options))
             {
-                return context.Set<T>().ToList();
-            }
-        }
-
-        public virtual T Find(long clienteAppId, long id)
-        {
-            using (var context = new DataContext(_options))
-            {
-                return context.Set<T>().FirstOrDefault(x => x.ClienteAppId == clienteAppId && x.Id == id);
+                return context.Set<T>().Find(id);
             }
         }
 
@@ -70,15 +60,14 @@ namespace Veiculos.Infra.Data.Base
             }
         }
 
-        public virtual void Update(long clienteAppId, T obj)
+        public virtual void Update(T obj)
         {
             using (var context = new DataContext(_options))
             {
-                obj.ClienteAppId = clienteAppId;
-
                 context.Set<T>().Update(obj);
                 context.SaveChanges();
             }
         }
+
     }
 }
